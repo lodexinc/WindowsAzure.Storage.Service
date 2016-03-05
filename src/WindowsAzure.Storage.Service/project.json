@@ -7,8 +7,8 @@
   "licenseUrl": "",
 
   "dependencies": {
-    "Microsoft.Extensions.DependencyInjection": "1.0.0-*",
-    "WindowsAzure.Storage": "6.2.0-*"
+    "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final",
+    "WindowsAzure.Storage": "6.2.0"
   },
 
   "frameworks": {
