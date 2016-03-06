@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WindowsAzure.Storage.Service", "src\WindowsAzure.Storage.Service\WindowsAzure.Storage.Service.xproj", "{E236E454-1FEC-4940-9369-70BCC545D27B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F9757A5D-E306-4EEF-A504-CDF7036EED08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8202448B-4235-473D-95E9-B76E023566C6}"
+	ProjectSection(SolutionItems) = preProject
+		build.cmd = build.cmd
+		global.json = global.json
+		NuGet.config = NuGet.config
+		pre-build.cmd = pre-build.cmd
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E236E454-1FEC-4940-9369-70BCC545D27B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E236E454-1FEC-4940-9369-70BCC545D27B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E236E454-1FEC-4940-9369-70BCC545D27B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E236E454-1FEC-4940-9369-70BCC545D27B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E236E454-1FEC-4940-9369-70BCC545D27B} = {F9757A5D-E306-4EEF-A504-CDF7036EED08}
+	EndGlobalSection
+EndGlobal
